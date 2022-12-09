@@ -95,4 +95,6 @@ dependencies {
     // coroutine
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version")
+
+    implementation ("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 }
