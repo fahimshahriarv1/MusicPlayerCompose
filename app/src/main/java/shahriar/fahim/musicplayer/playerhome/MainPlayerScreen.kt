@@ -1,6 +1,5 @@
-package shahriar.fahim.musicplayer.ui.theme
+package shahriar.fahim.musicplayer.playerhome
 
-import android.annotation.SuppressLint
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -24,14 +23,12 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import shahriar.fahim.musicplayer.R
 
-@SuppressLint("CoroutineCreationDuringComposition")
 @Preview
 @Composable
 fun MainPreview() {
     MainPlayerScreen()
 }
 
-@SuppressLint("CoroutineCreationDuringComposition")
 @Composable
 fun MainPlayerScreen() {
     val animate = remember {
